@@ -1,0 +1,49 @@
+.container{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+    align-items: center;
+    justify-content: space-between;
+    position:sticky;
+    top: 0;
+    z-index: 100;
+}
+.leftside{
+    display: flex;
+    gap: 10px;
+    height: 80px;
+    align-items: center;
+    margin-left: 2rem;
+    cursor: pointer;
+}
+.middleside ul{
+    list-style: none;
+    display: flex;
+    gap: 35px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.middleside ul a {
+    text-decoration: none;
+    color: black;
+}
+.middleside ul a:hover{
+    color: rgb(45, 45, 233);
+}
+.navbtn{
+    background-color:rgb(52, 52, 204) ;
+    color: #fff;
+    padding: 1.5vh 1.2vw;
+    border: none;
+    margin-right: 4rem;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.navbtn:hover{
+    background-color:rgb(3, 3, 241) ;
+}
